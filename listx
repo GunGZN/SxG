@@ -70,7 +70,7 @@ wget https://raw.githubusercontent.com/teamvpn/SSHPLUS29/master/Modulos/infouser
 chmod +x /bin/infousers
 wget https://raw.githubusercontent.com/teamvpn/SSHPLUS29/master/Modulos/limiter.sh -O /bin/limiter > /dev/null 2>&1
 chmod +x /bin/limiter
-wget https://raw.githubusercontent.com/teamvpn/SSHPLUS29/master/Modulos/menu.sh -O /bin/menu > /dev/null 2>&1
+wget https://raw.githubusercontent.com/GunGZN/menu-SxG/main/menu -O /bin/menu > /dev/null 2>&1
 chmod +x /bin/menu
 wget https://raw.githubusercontent.com/teamvpn/SSHPLUS29/master/Modulos/mudardata.sh -O /bin/mudardata > /dev/null 2>&1
 chmod +x /bin/mudardata
