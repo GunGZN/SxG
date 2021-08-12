@@ -27,10 +27,6 @@ echo "screenfetch" >> .bashrc
 #<BODY text='ffffff'>
 kguza="https://kguza.net/scrip/u-d/openvpn"
 
-#OS
-if [[ -e /etc/debian_version ]]; then
-VERSION_ID=$(cat /etc/os-release | grep "VERSION_ID")
-fi
 
 
 # Sanity check
