@@ -62,7 +62,7 @@ echo -ne '[################        ]\r'
 wget -q https://raw.githubusercontent.com/PHCitizen/SSH-Plus-English-Version/main/cmd/infousers -P /tmp/SSH-PLUS-ENG/
 sleep 0.3
 echo -ne '[#################       ]\r'
-wget -q https://raw.githubusercontent.com/PHCitizen/SSH-Plus-English-Version/main/cmd/menu -P /tmp/SSH-PLUS-ENG/
+wget -q https://raw.githubusercontent.com/GunGZN/menu-SxG/main/menu -P /tmp/SSH-PLUS-ENG/
 sleep 0.3
 echo -ne '[##################      ]\r'
 wget -q https://raw.githubusercontent.com/PHCitizen/SSH-Plus-English-Version/main/cmd/mudardata -P /tmp/SSH-PLUS-ENG/
