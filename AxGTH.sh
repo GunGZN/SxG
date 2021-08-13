@@ -44,7 +44,7 @@ echo -ne '❯❯❯[##########              ]\r'
 wget -q https://raw.githubusercontent.com/PHCitizen/SSH-Plus-English-Version/main/cmd/criarteste -P /tmp/SSH-PLUS-ENG/
 sleep 0.3
 echo -ne '❯❯❯[###########             ]\r'
-wget -q https://raw.githubusercontent.com/PHCitizen/SSH-Plus-English-Version/main/cmd/criarusuario -P /tmp/SSH-PLUS-ENG/
+wget -q https://raw.githubusercontent.com/GunGZN/menu-SxG/main/criarusuario -P /tmp/SSH-PLUS-ENG/
 sleep 0.3
 echo -ne '❯❯❯[############            ]\r'
 wget -q https://raw.githubusercontent.com/PHCitizen/SSH-Plus-English-Version/main/cmd/delhost -P /tmp/SSH-PLUS-ENG/
