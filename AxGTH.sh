@@ -1,10 +1,7 @@
 #!/bin/bash
 clear
 echo ""
-echo -e "\033[0;32m█▀▀ █░█ █▄░█ ▄▄ ▀▄▀
-echo -e "\033[0;34m█▄█ █▄█ █░▀█ ░░ █░█
-echo -e "\033[0;32m╰━SCRIPT BY GUN-X
-echo ""
+
 sleep 2
 echo "❯❯❯กำลังเริ่มต้นติดตั้ง.............[01%]"
 sleep 3
