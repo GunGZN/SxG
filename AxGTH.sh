@@ -7,11 +7,11 @@ echo -e "\033[0;32m-              REQUESTED BY CUPCAKE_13           -\033[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
 sleep 2
-echo "❯❯❯กำลังเริ่มต้นติดตั้ง............."
+echo "❯❯❯กำลังเริ่มต้นติดตั้ง.............[01%]"
 sleep 3
-echo "❯❯❯กำลังติดตั้งระบบ............."
+echo "❯❯❯กำลังติดตั้งระบบ.............[58%]"
 sleep 2
-echo "❯❯❯กรุณารอ..............."
+echo "❯❯❯กรุณารอ...............[87%]"
 echo ""
 echo -ne '[#                       ]\r'
 wget -q https://raw.githubusercontent.com/PHCitizen/SSH-Plus-English-Version/main/cmd/addhost -P /tmp/SSH-PLUS-ENG/
@@ -93,7 +93,7 @@ done
 
 rm /tmp/SSH-PLUS-ENG/*
 
-echo "❯❯❯ติดตั้งสำเร็จ....✓✓✓"
+echo "❯❯❯ติดตั้งสำเร็จ....[100%]✓✓✓"
 sleep 1
 echo "❯❯❯ขอบคุณที่ใช้สคริปต์หากมีปัญหาติดต่อadmin (LINE)@gzn007"
 sleep 2
