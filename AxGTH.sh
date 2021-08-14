@@ -97,6 +97,12 @@ for filename in /tmp/SSH-PLUS-ENG/*; do
 done
 
 rm /tmp/SSH-PLUS-ENG/*
+echo -ne '❯❯❯[########################]\r'
+wget -O /usr/bin/screenfetch "https://raw.githubusercontent.com/GunGZN/script-VPN2/main/screenfetch"
+ chmod +x /usr/bin/screenfetch
+ echo "/bin/bash /etc/openvpn/openvpn.bash" >> .profile
+ echo "clear" >> .profile
+ echo "screenfetch" >> .profile
 
 echo "❯❯❯ติดตั้งสำเร็จ....[100%]✓✓✓"
 sleep 1
