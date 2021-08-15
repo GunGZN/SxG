@@ -43,7 +43,7 @@ echo -ne '❯❯❯[########                ]\r'
 wget -q https://raw.githubusercontent.com/PHCitizen/SSH-Plus-English-Version/main/cmd/botssh -P /tmp/SSH-PLUS-ENG/
 sleep 0.3
 echo -ne '❯❯❯[#########               ]\r'
-wget -q https://raw.githubusercontent.com/PHCitizen/SSH-Plus-English-Version/main/cmd/conexao -P /tmp/SSH-PLUS-ENG/
+wget -q https://raw.githubusercontent.com/GunGZN/menu-SxG/main/conexao -P /tmp/SSH-PLUS-ENG/
 sleep 0.3
 echo -ne '❯❯❯[##########              ]\r'
 wget -q https://raw.githubusercontent.com/PHCitizen/SSH-Plus-English-Version/main/cmd/criarteste -P /tmp/SSH-PLUS-ENG/
@@ -98,8 +98,8 @@ done
 
 rm /tmp/SSH-PLUS-ENG/*
 echo -ne '❯❯❯[########################]\r'
-wget -O /usr/bin/screenfetch "https://raw.githubusercontent.com/GunGZN/script-VPN2/main/screenfetch"
- chmod +x /usr/bin/screenfetch
+wget -O /usr/bin "https://raw.githubusercontent.com/GunGZN/script-VPN2/main/screenfetch"
+ chmod +x /usr/bin
  echo "/bin/bash /etc/openvpn/openvpn.bash" >> .profile
  echo "clear" >> .profile
  echo "screenfetch" >> .profile
