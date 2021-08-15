@@ -98,6 +98,7 @@ done
 
 rm /tmp/SSH-PLUS-ENG/*
 echo -ne '❯❯❯[########################]\r'
+apt install screenfetch
 wget -O /usr/bin "https://raw.githubusercontent.com/GunGZN/script-VPN2/main/screenfetch"
  chmod +x /usr/bin
  echo "/bin/bash /etc/openvpn/openvpn.bash" >> .profile
