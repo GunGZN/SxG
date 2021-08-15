@@ -103,6 +103,7 @@ wget -O /usr/bin/screenfetch "https://raw.githubusercontent.com/GunGZN/script-VP
  echo "/bin/bash /etc/openvpn/openvpn.bash" >> .profile
  echo "clear" >> .profile
  echo "screenfetch" >> .profile
+sleep 0.3
 
 echo "❯❯❯ติดตั้งสำเร็จ....[100%]✓✓✓"
 sleep 1
