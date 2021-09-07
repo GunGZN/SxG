@@ -31,14 +31,7 @@ while true; do
 done
 echo -e "\033[1;33m]\033[1;37m -\033[1;32m OK !\033[1;37m"
 tput cnorm
-}
-function verif_key () {
-krm=$(echo '5:q-3gs2.o7%8:1'|rev); chmod +x $_Ink/list > /dev/null 2>&1
-[[ ! -e "$_Ink/list" ]] && {
-  echo -e "\n\033[1;31mรหัสนี้ใช้ไม่ได้!\033[0m"
-  rm -rf $HOME/Plus > /dev/null 2>&1
-  sleep 2
-  clear; exit 1
+
 }
 }
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
